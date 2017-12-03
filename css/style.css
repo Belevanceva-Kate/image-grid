@@ -1,0 +1,42 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	-webkit-transition: all .25s linear;
+	   -moz-transition: all .25s linear;
+	    -ms-transition: all .25s linear;
+	     -o-transition: all .25s linear;
+	        transition: all .25s linear;
+}
+
+.ba-container {
+	width: 1200px;
+	font-size: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.ba-grid > [class*="ba-width-"] > img {
+	cursor: pointer;
+    -webkit-filter: brightness(100%);
+       -moz-filter: brightness(100%);
+        -ms-filter: brightness(100%);
+         -o-filter: brightness(100%);
+            filter: brightness(100%);
+}
+
+.ba-grid > [class*="ba-width-"] > img:hover,
+.ba-grid > [class*="ba-width-"] > img:active,
+.ba-grid > [class*="ba-width-"] > img:focus {
+	-webkit-filter: brightness(65%);
+       -moz-filter: brightness(65%);
+        -ms-filter: brightness(65%);
+         -o-filter: brightness(65%);
+            filter: brightness(65%);
+}
